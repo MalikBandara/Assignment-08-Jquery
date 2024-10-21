@@ -56,3 +56,21 @@ h2{
     justify-content: right;
     /*margin-left: 500px;*/
 }
+.colour1{
+    background-color: blue;
+}
+.colour2{
+    background-color: yellow;
+}
+.colour3{
+    background-color: pink;
+}
+.colour4{
+    background-color: hotpink;
+}
+.colour5{
+    background-color: red;
+}
+.colour6{
+    background-color: green;
+}

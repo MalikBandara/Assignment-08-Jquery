@@ -55,6 +55,9 @@
             let array = ["A" , "B" , "C" , "D" ,"E" , 'F']
 
             setInterval(()=>{
+                let  last_value =  array.pop()
+                array.unshift(last_value);
+
 
             },3000);
 

@@ -54,7 +54,7 @@
         $("#startButton").click(function (){
             let array = ["A" , "B" , "C" , "D" ,"E" , 'F']
 
-            setInterval(()=>{
+                interval =  setInterval(()=>{
                 let  last_value =  array.pop()
                 array.unshift(last_value);
 
@@ -63,8 +63,14 @@
                 }
 
 
-            },3000);
+            },1000);
 
+
+
+        });
+
+        $("#endButton").click(function (){
+            clearInterval(interval);
 
 
         });

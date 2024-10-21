@@ -42,8 +42,15 @@
     border-radius: 5px;
     margin-bottom: 15px;
     font-size: 1.5rem;
+    transition: all 0.5s ease-in-out;
 }
 h1{
     color: blue;
     font-size: 3rem;
+}
+
+.button-div button:hover{
+    color: black;
+    background-color: white;
+
 }

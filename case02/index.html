@@ -35,7 +35,7 @@
 <script>
       $("#startbutton").click(function (){
           let colours = ["blue", "yellow" , "pink" , "hotpink" , "red" , "green"]
-          setInterval(()=>{
+          setinterval = setInterval(()=>{
                 let last_colour = colours.pop();
                 colours.unshift(last_colour);
 
@@ -50,6 +50,12 @@
 
 
       });
+
+      $("#endbutton").click( function (){
+         clearInterval(setinterval);
+
+      });
+
 
 </script>
 </body>

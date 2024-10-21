@@ -81,9 +81,18 @@ button{
     border-radius: 5px;
     color: white;
     font-size: 1.5rem;
+    box-shadow:  0 0 35px;
+    transition: all .5s ease-in-out;
 }
 .button-div{
     display: flex;
     gap: 2rem;
+
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    border: none;
 
 }

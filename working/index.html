@@ -58,6 +58,10 @@
                 let  last_value =  array.pop()
                 array.unshift(last_value);
 
+                for(let i = 0 ; i < array.length ; i++){
+                    $("h1")[i].innerText = array[i];
+                }
+
 
             },3000);
 

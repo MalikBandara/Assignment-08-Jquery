@@ -23,9 +23,34 @@
         <div class="i-flex last ">
             <div class="inner-div colour6"></div>
         </div>
+        <div class="button-div">
+            <button id="startbutton">Start</button>
+            <button id="endbutton">end</button>
+        </div>
     </div>
 </div>
 
 <script src="./lib/jquery-3.7.1.min.js"></script>
+
+<script>
+      $("#startbutton").click(function (){
+          let colours = ["blue", "yellow" , "pink" , "hotpink" , "red" , "green"]
+          setInterval(()=>{
+                let last_colour = colours.pop();
+                colours.unshift(last_colour);
+
+                for (let i = 0 ; i<colours.length ;i++){
+                    $(".inner-div").eq(i).css("background-color",colours[i]);
+                }
+
+
+
+
+          },1000);
+
+
+      });
+
+</script>
 </body>
 </html>

@@ -74,3 +74,16 @@ h2{
 .colour6{
     background-color: green;
 }
+
+button{
+    padding: 20px 55px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5rem;
+}
+.button-div{
+    display: flex;
+    gap: 2rem;
+
+}
